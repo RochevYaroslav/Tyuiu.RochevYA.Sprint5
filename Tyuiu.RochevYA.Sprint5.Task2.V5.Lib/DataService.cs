@@ -19,7 +19,7 @@ namespace Tyuiu.RochevYA.Sprint5.Task2.V5.Lib
                     }
                     row[j] = array[i, j].ToString();
                 }
-                result[i] = string.Join("; ", row);
+                result[i] = string.Join(";", row);
             }
             return string.Join("\n", result);
         }
