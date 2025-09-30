@@ -5,7 +5,7 @@ namespace Tyuiu.RochevYA.Sprint5.Task1.V5.Lib
     {
         public string SaveToFileTextData(int startValue, int stopValue)
         {
-            List<int> results = new List<int>();
+            List<double> results = new List<double>();
 
             for (int i = startValue; i <= stopValue; i++)
             {
@@ -18,7 +18,7 @@ namespace Tyuiu.RochevYA.Sprint5.Task1.V5.Lib
                 else
                 {
                     double value = 5 - 3 * i + (1 + Math.Sin(i)) / denominator;
-                    results.Add((int)Math.Round(value,2)); 
+                    results.Add((double)Math.Round(value,2)); 
                 }
             }
 
