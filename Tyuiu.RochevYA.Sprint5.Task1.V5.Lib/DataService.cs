@@ -18,7 +18,7 @@ namespace Tyuiu.RochevYA.Sprint5.Task1.V5.Lib
                 else
                 {
                     double value = 5 - 3 * i + (1 + Math.Sin(i)) / denominator;
-                    results.Add((int)Math.Round(value)); // или сохранять как double?
+                    results.Add((int)Math.Round(value,2)); 
                 }
             }
 
