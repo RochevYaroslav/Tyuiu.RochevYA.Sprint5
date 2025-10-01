@@ -12,7 +12,7 @@ namespace Tyuiu.RochevYA.Sprint5.Task5.V8.Lib
             double min = 10000000000000;
             for (int i = 0;i< doubleArray.Length; i++)
             {
-                if ((doubleArray[i] < min) && (doubleArray[i]%1!=0));
+                if ((doubleArray[i] < min) && (doubleArray[i]%1!=0))
                 {
                     min = doubleArray[i];
                 }
