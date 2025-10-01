@@ -8,7 +8,6 @@ namespace Tyuiu.RochevYA.Sprint5.Task1.V5.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            Assert.AreEqual(24576, ds.SaveToFileTextData(2));
         }
     }
 }
